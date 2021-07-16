@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function doSomething(){
+            console.log("Welcome ot js ");
+        }
+        function callDoSomething(){
+            console.log("Before call:");
+            doSomething();
+            console.log("After call:");
+        }
+        callDoSomething();
+
+        function callBackDoSomething(msg,function_name){
+            console.log("Before call:"+msg);
+            function_name();
+            console.log("After call:"+msg);
+        }
+
+        callBackDoSomething("testing callback",doSomething);
+
+        callBackDoSomething("tada",function(){
+            console.log("Ihave doubt how jquery worked!");
+        });        
+    </script>
+</body>
+</html>
