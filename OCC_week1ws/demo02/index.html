@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://developer.mozilla.org/static/img/opengraph-logo.png">
+    <meta property="og:description" content="The Mozilla Developer Network (MDN) provides
+information about Open Web technologies including HTML, CSS, and APIs for both Web sites
+and HTML5 Apps. It also documents Mozilla products, like Firefox OS.">
+    <meta property="og:title" content="Mozilla Developer Network">    
+    <title>Demo02-Heading</title>
+    <!-- Internal CSS - On the page -->
+    <style>
+        body{
+            background-color: #687864;
+            color:#F7F9FB;
+        }
+    </style>
+    <!-- External CSS : Always use this way of Styling-->
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+<body>
+    <h1>Heading Tag 1</h1>
+    <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
+    <!-- Inline css  -->
+    <h2 style="color:#8FC1E3">Heading Tag 2</h2>
+    <!-- Inline js : this is must 
+        because js code is called on event of the html element
+    -->
+    <h3 onclick="alert('Welcome to javascript')">Heading Tag 3</h3>
+    <h4 onmousedown="alert('mouse over called')">Heading Tag 4</h4>
+    <h5>Heading Tag 5</h5>
+    <h6>Heading Tag 6</h6>
+    <img src="images/img01.jpg" width="500px" height="500px"/>
+   
+    
+     <!-- Internal JS - On the page -->
+     <script>
+        console.log("Line 25: JS called");
+    </script>
+    <!-- External JS : Always use this way of Styling-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

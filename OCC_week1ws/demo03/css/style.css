@@ -1,0 +1,67 @@
+/* Tag Selector: body */
+/* 1. Css file within the selector write properties in 
+*  ascending order 
+*  2. write the selector as per the order of rending in html
+*  3. never use center,i,b,u tag in your html instead use font-style or 
+*     text-align in css
+*/
+body{
+    background-color: black; 
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    
+}
+header{
+    /* white=#ffffff black=#000000 rgb  */
+    /* border:solid 1px red; */
+    color:#4433ff;    
+    font-size: 30px;
+    /* margin:0 16px 0 16px; */
+    /* padding: 0 16px; */
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    right:0px;
+    bottom:100px;    
+}
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+/* footer{
+    background-color: cyan;
+    color:navy;     
+    text-align: center;
+    width: 100%;
+} */
+/* section{
+    display: inline-flex;
+    width:100%;
+} */
+article{
+    display: inline-flex;
+    width:100%;
+    height:40%;
+}
+aside{
+    background-color: white;
+    color:navy;
+    float:right;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+footer h6{
+    background-color: cyan;
+    color:navy;     
+}
